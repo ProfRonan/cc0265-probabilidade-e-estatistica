@@ -1,0 +1,14 @@
+digraph G {
+  bgcolor=black;
+  rankdir="LR"
+  node [shape=box, style="filled, rounded", color=lightblue];
+  edge [color=white];
+  "Descrever\nClaramente" -> "Identificar Fatores\nImportantes";
+  "Identificar Fatores\nImportantes" -> "Conduzir\nExperimentos";
+  "Identificar Fatores\nImportantes" -> "Propor/Refinar\nModelo";
+  "Conduzir\nExperimentos" -> "Propor/Refinar\nModelo";
+  "Propor/Refinar\nModelo" -> "Manipular\nModelo";
+  "Manipular\nModelo" -> "Confirmar\nSolução";
+  "Manipular\nModelo" -> "Identificar Fatores\nImportantes" [color=red];
+  "Confirmar\nSolução" -> "Elaborar\nConclusões";
+  }
