@@ -1,0 +1,10 @@
+digraph G {
+  bgcolor=black;
+  rankdir="LR";
+  node [shape=box, style="filled, rounded", color=lightblue];
+  edge [color=white, fontcolor=white];
+  "Entrada" -> "Sistema";
+  "Sistema" -> "Saída";
+  "Variáveis\nControladas" -> "Sistema";
+  "Variáveis\nRuído" -> "Sistema";
+  }
