@@ -1,7 +1,7 @@
 # Probabilidade - Introdução
 
 - [Espaço Amostral e Eventos](espaço_amostral_eventos.ipynb)
-- Técnicas de Contagem
+- [Técnicas de Contagem](técnicas_de_contagem.md)
 - Interpretações e Axiomas de Probabilidade
 - Uniões de Eventos e Regras Aditivas
 - Probabilidade Condicional
