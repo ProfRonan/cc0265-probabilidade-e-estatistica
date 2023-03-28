@@ -60,3 +60,56 @@ Quando dizemos combinações de $n$, $r$ à $r$ denotado por $\binom{n}{r}$ esta
 Nesse caso, a ordem relativa dos elementos de um subconjunto não importa.
 
 $$ \binom{n}{r} = \frac{n!}{(n - r)! r!}$$
+
+## Exemplos
+
+1. Quantos anagramas podem ser formados com as letras da palavra "POTATO"?
+   <details>
+   <summary>Resposta</summary>
+   720 anagramas podem ser formados com as letras da palavra "POTATO".
+   </details>
+2. De quantas maneiras diferentes podemos escolher uma comissão com 3 pessoas de um grupo de 7 membros?
+   <details>
+   <summary>Resposta</summary>
+   Podemos escolher uma comissão com 3 pessoas de um grupo de 7 membros de 35 maneiras diferentes.
+   </details>
+3. Em quantas ordens diferentes podemos organizar uma fila com 5 pessoas?
+   <details>
+   <summary>Resposta</summary>
+   Podemos organizar uma fila com 5 pessoas de 120 maneiras diferentes.
+   </details>
+4. Quantas maneiras diferentes podemos escolher 2 cartas de um baralho de 52 cartas?
+   <details>
+   <summary>Resposta</summary>
+   Podemos escolher 2 cartas de um baralho de 52 cartas de 1.326 maneiras diferentes.
+   </details>
+5. Quantos números de 4 dígitos podem ser formados usando os algarismos 0, 1, 2, 3 e 4, sem repetição?
+   <details>
+   <summary>Resposta</summary>
+   Podemos formar 120 números de 4 dígitos usando os algarismos 0, 1, 2, 3 e 4, sem repetição.
+   </details>
+6. De quantas maneiras diferentes podemos distribuir 10 livros em duas prateleiras, sendo que a primeira prateleira deve ter 6 livros e a segunda prateleira deve ter 4 livros?
+   <details>
+   <summary>Resposta</summary>
+   Podemos distribuir 10 livros em duas prateleiras, sendo que a primeira prateleira deve ter 6 livros e a segunda prateleira deve ter 4 livros, de 210 maneiras diferentes.
+   </details>
+7. Quantos anagramas podem ser formados usando as letras da palavra "MATHEMATICS"?
+   <details>
+   <summary>Resposta</summary>
+   Podemos formar 3.628.800 anagramas usando as letras da palavra "MATHEMATICS".
+   </details>
+8. De quantas maneiras diferentes podemos escolher uma equipe de 5 jogadores de um grupo de 10 jogadores?
+   <details>
+   <summary>Resposta</summary>
+   Podemos escolher uma equipe de 5 jogadores de um grupo de 10 jogadores de 252 maneiras diferentes.
+   </details>
+9. Em quantas maneiras diferentes podemos organizar uma fila com 3 homens e 2 mulheres?
+   <details>
+   <summary>Resposta</summary>
+   Podemos organizar uma fila com 3 homens e 2 mulheres de 30 maneiras diferentes.
+   </details>
+10. Quantos números ímpares de 3 dígitos podem ser formados usando os algarismos 0, 1, 2, 3, 4, 5 e 6, sem repetição?
+    <details>
+    <summary>Resposta</summary>
+    Podemos formar 360 números ímpares de 3 dígitos usando os algarismos 0, 1, 2, 3, 4, 5 e 6, sem repetição.
+    </details>
