@@ -121,8 +121,8 @@ $$ \binom{n}{r} = \frac{n!}{(n - r)! r!}$$
    <summary>Resposta</summary>
    Aqui teremos que assumir que os homens são diferentes das mulheres.
    Acho razoável assumir que homens são diferentes entre si e que mulheres são diferentes entre si... Logo $5! = 120$ maneiras.
-   Mas se você faz parte do grupo que acha que homem é tudo igual e que mulher é tudo igual, então a resposta é a $\binom{5}{3}$, que são as posições ocupadas pelos homens nos 5 lugares da fila.
-   Resultando em 10 maneiras nesse caso.
+   Mas se você faz parte do grupo que acha que homem é tudo igual e que mulher é tudo igual, então a resposta é $\binom{5}{3}$, que são as posições ocupadas pelos homens nos 5 lugares da fila.
+   Resultando em $10$ maneiras nesse caso.
    </details>
 10. Quantos números ímpares de 3 dígitos podem ser formados usando os algarismos 0, 1, 2, 3, 4, 5 e 6, sem repetição?
     <details>
