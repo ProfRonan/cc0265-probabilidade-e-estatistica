@@ -145,9 +145,16 @@ $$ \binom{n}{r} = \frac{n!}{(n - r)! r!}$$
       Se os dois baralhos são iguais, significa que temos vários pares de cartas iguais.
       Nesse caso se fizermos a combinação simples que nem na questão anterior, estaremos contando várias mãos que são iguais, pois não seria possível distinguir se um às de copas veio de um baralho ou de outro.
       Nesse caso teremos que analisar com mais cuidado.
-      Uma opção seria contar todos os arranjos de 5 cartas desses dois baralhos e dividir por $5!$ o resultado.
-      Vendo a questão 13 a resposta é: $3.173.560$.
+      Sem repetição só temos 52 cartas distintas, logo teremos $52 \times 51 \times 50 \times 49 \times 48 / 5! = 2.598.960$ formas diferentes escolher 5 cartas desses dois baralhos.
+      Com um par de cartas iguais teremos que escolher qual o par será utilizado e depois escolher as outras 3 cartas.
+      Para escolher o par temos $52$ pares juntando os dois baralhos, depois sobram $\binom{51}{3}$ formas diferentes de escolher as últimas 3 cartas tal que duas não sejam iguais.
+      Logo, com um par temos $52 \times \binom{51}{3} = 1.082.900$.
+      Para escolher dois pares temos $\binom{52}{2}$ pares, depois sobram $50$ cartas distintas.
+      Logo, com 2 pares temos $3.748.160$.
+      Ao total temos
+
     </details>
+
 13. Quantos arranjos com 5 cartas podemos fazer com dois baralhos idênticos de 52 cartas?
     <details>
     <summary>Resposta</summary>
