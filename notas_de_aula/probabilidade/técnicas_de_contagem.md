@@ -127,13 +127,12 @@ $$ \binom{n}{r} = \frac{n!}{(n - r)! r!}$$
 10. Quantos números ímpares de 3 dígitos podem ser formados usando os algarismos 0, 1, 2, 3, 4, 5 e 6, sem repetição?
     <details>
     <summary>Resposta</summary>
-    Aqui temos que escolher um primeiro número que não pode ser zero.
-    São 6 opções: 1, 2, 3, 4, 5 ou 6.
-    O primeiro número pode ser par ou ímpar.
-    No caso de par (3 opções), temos 3 opções para o último número (1, 3 ou 5) e sobram 4 opções para o segundo.
-    No caso de ímpar (3 opções), temos 2 opções para o último número (1, 3 ou 5 menos o escolhido para o primeiro) e sobram 4 opções para o segundo.
-    Logo temos $3 \times 3 \times 4 + 3 \times 2 \times 4 = 60$ opções.
+    Aqui podemos começar escolhendo o terceiro número, temos 3 opções.
+    Depois podemos escolher o primeiro número, temos 5 opções pois não podemos escolher o zero para a primeira posição e já escolhemos um dos ímpares para a terceira.
+    Finalmente, podemos escolher o segundo número que são também 5 opões.
+    O resultado é $3 \times 5 \times 5 = 75$.
     </details>
+
 11. Quantas formas temos de selecionar 5 cartas de dois baralhos de 52 cartas (assumindo dois baralhos diferentes)?
     <details>
     <summary>Resposta</summary>
