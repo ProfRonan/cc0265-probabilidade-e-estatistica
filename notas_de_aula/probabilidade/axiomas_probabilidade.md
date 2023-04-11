@@ -64,26 +64,26 @@ Seja o modelo probabilístico que _tenta_ modelar o lançamento de dois dados pa
 
 Podemos definir o espaço amostral como:
 
-$$\Omega_1 = \{(x,y) \mid x \in \{1, 2, 3, 4, 5, 6\} \quad y \in \{1, 2, 3, 4, 5, 6\}\}$$
+$$\Omega_1 = \\{(x,y) \mid x \in \\{1, 2, 3, 4, 5, 6\\} \quad y \in \\{1, 2, 3, 4, 5, 6\\}\\}$$
 
 que faria diferença entre os números dos dois dados, poderíamos obter a soma somando o $x$ e $y$.
 
 Outro espaço amostral poderia ser:
 
-$$\Omega_2 = \{2, 3, 4, \ldots, 12\}$$
+$$\Omega_2 = \\{2, 3, 4, \ldots, 12\\}$$
 
 ### Escolher a Função de Probabilidade
 
 Uma opção, usando o espaço amostral $\Omega_1$, seria escolher uma função de probabilidade equiprovável.
 
-Ou seja, cada evento $\{(x, y)\}$ receberia probabilidade $1/36$.
+Ou seja, cada evento $\\{(x, y)\\}$ receberia probabilidade $1/36$.
 
-> **Notação** para eventos unitários, $E = \{e\}$, é mais fácil escrever $P(e)$ do que $P(\{e\})$.
+> **Notação** para eventos unitários, $E = \\{e\\}$, é mais fácil escrever $P(e)$ do que $P(\\{e\\})$.
 > Portanto, vamos escrever simplesmente $P(e)$ quando for um evento unitário.
 
 Podemos escrever o evento em que a soma dos dados dá $7$ como o evento
 
-$$E_7 = \{(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)\}$$
+$$E_7 = \\{(1, 6), (2, 5), (3, 4), (4, 3), (5, 2), (6, 1)\\}$$
 
 Assim, $P(E_7) = P((1, 6)) + P((2, 5)) + P((3, 4)) + P((4, 3)) + P((5, 2)) + P((6, 1)) = 6/36$.
 
