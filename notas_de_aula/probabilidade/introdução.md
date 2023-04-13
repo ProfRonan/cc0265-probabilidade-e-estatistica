@@ -6,7 +6,7 @@
 - [Uniões de Eventos e Regras Aditivas](uniões_e_regras_aditivas.md)
 - [Probabilidade Condicional](probabilidade_condicional.md)
 - [Interseção de Eventos, Multiplicação e Regra da Probabilidade Total](interseção_eventos.md)
-- Teorema de Bayes
+- [Teorema de Bayes](teorema_de_bayes.md)
 - Variáveis Aleatórias
   - Discretas
   - Contínuas
