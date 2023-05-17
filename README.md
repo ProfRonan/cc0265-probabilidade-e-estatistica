@@ -7,6 +7,7 @@ Esse repositório serve como apoio para o curso de _Probabilidade e Estatística
 - [Assuntos](notas_de_aula/assuntos/assuntos.md)
 - [Papel da Estatística na Engenharia](notas_de_aula/papel_estatística_engenharia/papel_estatística_engenharia.ipynb)
 - [Probabilidade](notas_de_aula/probabilidade/introdução.md)
+- [Estatística Descritiva](notas_de_aula/estatística_descritiva/introdução.ipynb)
 
 ## Bibliografia Recomendada
 
